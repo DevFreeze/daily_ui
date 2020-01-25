@@ -38,11 +38,18 @@ flutter:
   # Images
   assets:
     - assets/yoga.png
+    - assets/facebook-icon.png
+    - assets/google-icon.png
+    - assets/instagram-icon.png
 
   # Fonts
   fonts:
     - family: Nunito
       fonts:
+        - asset: fonts/Nunito-Light.ttf
+          weight: 300
+        - asset: fonts/Nunito-Regular.ttf
+          weight: 400
         - asset: fonts/Nunito-Bold.ttf
           weight: 700
         - asset: fonts/Nunito-ExtraBold.ttf

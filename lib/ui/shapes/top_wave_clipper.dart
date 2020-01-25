@@ -10,6 +10,11 @@ class TopWaveClipper extends CustomClipper<Path> {
 
     path.lineTo(size.width, 0.0);
 
+
+    path.lineTo(0.0, 0.0);
+    path.lineTo(size.width, size.height);
+
+
     path.close();
     return path;
   }
