@@ -76,7 +76,7 @@ class _SignInState extends State<SignIn> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: new BorderRadius.circular(18.0),
                               ),
-                              color: Colors.white,
+                              color: Colors.transparent,
                               elevation: detail ? 10.0 : 15.0,
                             ),
                           ),
